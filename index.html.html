@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ZAO APP</title>
+  <!-- Supabase JS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+</head>
+<body>
+  <h2>ZAO APP</h2>
+
+  <div id="auth">
+    <input id="email" placeholder="Email">
+    <input id="password" type="password" placeholder="Password">
+    <button id="signupBtn">Sign Up</button>
+    <button id="signinBtn">Sign In</button>
+  </div>
+
+  <div id="chat" style="display:none;">
+    <h3>Messages</h3>
+    <div id="messages" style="height:200px; overflow:auto; border:1px solid #000;"></div>
+    <input id="messageInput" placeholder="Type your message">
+    <button id="sendBtn">Send</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
